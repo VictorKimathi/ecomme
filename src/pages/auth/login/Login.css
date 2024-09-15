@@ -1,0 +1,60 @@
+/* Login.css */
+
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full viewport height */
+    background-color: #f8f9fa; /* Light background color */
+  }
+  
+  .login-form {
+    width: 75%; /* Cover 3/4 of the page width */
+    max-width: 600px; /* Max width for larger screens */
+    padding: 20px;
+    background: white; /* White background for the form */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .login-form h2 {
+    margin-bottom: 20px;
+  }
+  
+  .login-form form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .login-form input {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .login-form .role-selection {
+    margin-bottom: 15px;
+  }
+  
+  .login-form .role-selection label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .login-form button {
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #007bff; /* Bootstrap primary color */
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .login-form button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+  }
+  
